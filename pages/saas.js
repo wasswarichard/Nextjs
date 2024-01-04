@@ -13,37 +13,20 @@ import PricingPlan from "../components/Saas/PricingPlan";
 import GetStarted from "../components/Saas/GetStarted";
 import Feedback from "../components/Saas/Feedback";
 import Partner from "../components/Saas/Partner";
+import Analytics from "../components/Saas/Analytics";
+import Employees from "../components/Saas/Employees";
+import AgeBar from "../components/Saas/AgeBar";
 
 const Saas = () => {
+
   return (
     <>
-      <Navbar />
-
-      <Banner />
-
-      {/*<Features />*/}
-
-      {/*<Overview />*/}
-
-      {/*<JoinCard />*/}
-
-      {/*<CtaCard />*/}
-
-      {/*<SaasTools />*/}
-
-      {/*<Funfact />*/}
-
-      {/*<WorkProcess />*/}
-
-      {/*<PricingPlan />*/}
-
-      {/*<GetStarted />*/}
-
-      {/*<Feedback />*/}
-      {/**/}
-      {/*<Partner />*/}
-
-      <Footer />
+        <Navbar />
+        <Banner />
+        <AgeBar/>
+        <Analytics/>
+        <Employees/>
+        <Footer />
     </>
   );
 };
