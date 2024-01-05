@@ -50,6 +50,7 @@ out
 # Optional npm cache directory
 .npm
 .next
+.idea
 
 # Optional eslint cache
 .eslintcache
