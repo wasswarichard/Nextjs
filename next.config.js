@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const path = require('path')
 const nextConfig = {
-    // output: 'export',
+    output: 'export',
     reactStrictMode: true,
     trailingSlash: true,
     sassOptions: {
@@ -13,6 +13,7 @@ const nextConfig = {
         // your project has ESLint errors.
         ignoreDuringBuilds: true,
     },
+
     // env: {
     //     stripePublishableKey: 'pk_test_ZaZZWZGlvdIn12yFleIqyjSI00G4e18Kf7',
     //     stripeSecretKey: 'sk_test_2DqyjEwaU0Nq0PpEMVQ3qSAw00zgrbnfPk'

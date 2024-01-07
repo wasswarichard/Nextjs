@@ -5,12 +5,14 @@ import Banner from "../components/Saas/Banner";
 import AgeBar from "../components/Saas/AgeBar";
 import Analytics from "../components/Saas/Analytics";
 import Employees from "../components/Saas/Employees";
+import Solutions from "../components/Saas/Solutions";
 
 const Index = () => {
   return (
     <>
         <Navbar />
         <Banner />
+        <Solutions/>
         <AgeBar/>
         <Analytics/>
         <Employees/>

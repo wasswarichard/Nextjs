@@ -79,28 +79,14 @@ class Navbar extends React.Component {
           <div id="navbar" className={`crake-nav ${layOutCls}`}>
             <div className="container">
               <nav className="navbar navbar-expand-md navbar-light">
-                <Link href="/saas" className="navbar-brand">
+                <Link href="/" className="navbar-brand">
                   <img src={logo} alt="logo" />
                 </Link>
-
-                {/*<button*/}
-                {/*  onClick={this.toggleNavbar}*/}
-                {/*  className={classTwo}*/}
-                {/*  type="button"*/}
-                {/*  data-toggle="collapse"*/}
-                {/*  data-target="#navbarSupportedContent"*/}
-                {/*  aria-controls="navbarSupportedContent"*/}
-                {/*  aria-expanded="false"*/}
-                {/*  aria-label="Toggle navigation"*/}
-                {/*>*/}
-                {/*  <span className="navbar-toggler-icon"></span>*/}
-                {/*</button>*/}
-
                 <div className={classOne} id="navbarSupportedContent">
                   <ul className="navbar-nav nav ms-auto">
                     <li className="nav-item">
                       <Link
-                        href="/saas/"
+                        href="/"
                         className={`nav-link ${
                           router.pathname === "/" ? "active" : ""
                         }`}
@@ -110,42 +96,27 @@ class Navbar extends React.Component {
                     </li>
 
                     <li className="nav-item">
-                      <a href="/about-one/" className="nav-link">
+                      <a href="/" className="nav-link">
                         Pricing
                       </a>
                     </li>
 
                     <li className="nav-item">
                       <Link
-                        href="/portfolio-one"
+                        href="/"
                         className={`nav-link ${
-                          router.pathname === "/portfolio-one" ? "active" : ""
+                          router.pathname === "/" ? "active" : ""
                         }`}
                       >
                         Company
                       </Link>
-
-                      <ul className="dropdown_menu">
-                        <li>
-                          <Link
-                            href="/portfolio-one"
-                            className={
-                              router.pathname === "/portfolio-one"
-                                ? "active"
-                                : ""
-                            }
-                          >
-                           Dropdown 1
-                          </Link>
-                        </li>
-                      </ul>
                     </li>
 
                     <li className="nav-item">
                       <Link
-                        href="/blog-one/"
+                        href="/"
                         className={`nav-link ${
-                          router.pathname === "/blog-one" ? "active" : ""
+                          router.pathname === "/" ? "active" : ""
                         }`}
                       >
                         Blog
@@ -154,9 +125,9 @@ class Navbar extends React.Component {
 
                     <li className="nav-item">
                       <Link
-                        href="/shop-one"
+                        href="/"
                         className={`nav-link ${
-                          router.pathname === "/shop-one" ? "active" : ""
+                          router.pathname === "/" ? "active" : ""
                         }`}
                       >
                         Demo
@@ -165,9 +136,9 @@ class Navbar extends React.Component {
                     </li>
                     <li className="nav-item">
                       <Link
-                        href="/contact"
+                        href="/"
                         className={
-                          router.pathname === "/contact" ? "active" : ""
+                          router.pathname === "/" ? "active" : ""
                         }
                       >
                         Login
