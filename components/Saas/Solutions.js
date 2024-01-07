@@ -3,7 +3,7 @@ import React from "react";
 const Solutions = () => {
     return (
         <>
-            <section className="features-area saas-features ptb-100">
+            <section className="solutions ptb-100">
                 <div className="container">
                     <div className="section-title">
                         <h2>Our Solutions</h2>
@@ -15,20 +15,19 @@ const Solutions = () => {
                                 <div >
                                     <img src="/images/lystface-shape/facial_recognition.png" alt="precise facial recognition" />
                                 </div>
-                                <h3>Precise Facial Recognition</h3>
+                                <h2>Precise Facial Recognition</h2>
                                 <p>
                                    Immerse your platform in the world of
                                     precise facial identification technology.
                                 </p>
                             </div>
                         </div>
-
                         <div className="col-lg-4 col-md-6">
                             <div className="single-features">
                                 <div >
                                     <img src="/images/lystface-shape/realtime_efficiency.png" alt="Real-time Effeciency" />
                                 </div>
-                                <h3>Real-Time Efficiency</h3>
+                                <h2>Real-Time Efficiency</h2>
                                 <p>
                                     Elevate user experiences with swift,
                                     real-time face verification.

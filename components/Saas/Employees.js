@@ -2,8 +2,7 @@ import React from "react";
 
 const Employees = () => {
     return (
-        <div className="main-banner">
-            <div className="d-table employees">
+        <div className="d-table employees">
                 <div className="d-table-cell">
                     <div className="container">
                         <div className="row h-100 justify-content-center align-items-center">
@@ -34,7 +33,6 @@ const Employees = () => {
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 export default Employees;

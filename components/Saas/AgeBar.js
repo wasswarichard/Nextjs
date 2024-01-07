@@ -2,7 +2,7 @@ import React from "react";
 
 const AgeBar = () => {
     return (
-        <div className="main-banner saas-home">
+        <div className="">
             <div className="d-table employees">
                 <div className="d-table-cell">
                     <div className="container">

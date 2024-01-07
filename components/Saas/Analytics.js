@@ -3,8 +3,7 @@ import React from "react";
 
 const Analytics = () => {
     return (
-        <div className="main-banner saas-home">
-            <div className="d-table">
+        <div className="d-table analytics">
                 <div className="d-table-cell">
                     <div className="container">
                         <div className="row h-100 justify-content-center align-items-center">
@@ -33,7 +32,6 @@ const Analytics = () => {
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 export default Analytics;

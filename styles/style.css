@@ -925,7 +925,7 @@ Main Banner CSS
 }
 .main-banner .hero-content h1 {
   color: var(--blackColor);
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin: 0;
 }
@@ -939,8 +939,23 @@ Main Banner CSS
   font-size: 18px;
   margin-bottom: 35px;
 }
-.main-banner .employees {
+.employees {
+  background: var(--whiteColor);
+  height: 700px;
+  position: relative;
+}
+
+.solutions {
+  background: var(--whiteColor);
+  height: 600px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.analytics {
   background: #FFF5DA;
+  height: 700px;
+  position: relative;
 }
 .main-banner .employees .hero-content h1 {
   color: var(--blackColor);
@@ -2346,6 +2361,11 @@ Fun Facts CSS
 }
 .single-funfact h3 {
   font-size: 35px;
+  font-weight: 700;
+  margin: 25px 0 8px;
+}
+.single-funfact h2 {
+  font-size: 25px;
   font-weight: 700;
   margin: 25px 0 8px;
 }
